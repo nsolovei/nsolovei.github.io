@@ -7,6 +7,9 @@ ol {
 	width: 600px;
 	margin: 50px 0 0 50px;
 }
+ol li {
+	padding-bottom: 15px;
+}
 ol a {
 	color: #000;
 }
