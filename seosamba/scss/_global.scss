@@ -1,0 +1,30 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body {
+    min-width: 320px;
+    font: normal #{$fontSize-base}/#{$lineHeight-base} $font-base;
+    color: $black;
+
+    @media #{$large-up} {
+        font-size: $fontSize-base;
+    }
+}
+.container {
+    width: $width-base;
+    margin: 0 auto;
+    @media  #{$large-only} {
+        width: $width-large;
+    }
+    @media  #{$medium-only} {
+        width: $width-medium;
+    }
+    @media  #{$small-only} {
+        width: $width-small;
+    }
+    @media  #{$xsmall-only} {
+        width: $width-xsmall;
+    }
+}

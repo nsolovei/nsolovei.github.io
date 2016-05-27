@@ -1,0 +1,116 @@
+.about-us {
+	width: 100%;
+	background: $white;
+	.about-us__wrap  {
+		display: flex;
+		padding: 70px 0;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		@media  #{$large-only} {
+       		padding: 50px 0;
+	    }
+	    @media  #{$medium-only} {
+	        padding: 30px 0;
+	    }
+	    @media  #{$small-only} {
+	        padding: 20px 0;
+	    }
+	    @media  #{$xsmall-only} {
+	        padding: 15px 0;
+	    }
+	}
+}
+.about-as__img {
+	padding: 70px 75px 0 50px;
+	flex: 1 0 430px;
+	@media  #{$large-only} {
+       	padding: 30px 0;
+       	text-align: center;
+    }
+    @media  #{$medium-only} {
+        padding: 20px 0;
+        text-align: center;
+    }
+    @media  #{$small-only} {
+        padding: 10px 0;
+        text-align: center;
+    }
+    @media  #{$xsmall-only} {
+        display: none;
+    }
+}
+.about-us__article {
+	flex: 1 0 430px;
+	@media  #{$large-only} {
+       width: 100%;
+    }
+    @media  #{$medium-only} {
+        width: 100%;
+    }
+    @media  #{$small-only} {
+        width: 100%;
+    }
+    @media  #{$xsmall-only} {
+        width: 100%;
+        flex: 1 0 300px;
+    }
+	.about-us__article_head {
+		margin: 0;
+		padding-bottom: 20px;
+		color: $black;
+		font: {
+			family: $font-head;
+		    size: $fontSize-largest;
+		    weight: 800;
+		}
+		line-height: $lineHeight-tightest;
+	}
+	span:last-of-type {
+		padding-bottom: 20px;
+	}
+	.about-us__article_span {
+		display: block;
+		color: $black;
+		font: {
+			family: $font-head;
+		    size: $fontSize-small;
+		    weight: 500;
+		}
+	}
+	p {
+		margin: 0;
+		padding-bottom: 20px;
+		color: $gray;
+		font: {
+			family: $font-base;
+		    size: $fontSize-base;
+		    weight: 400;
+		}
+	}
+}
+.about-us__article_img {
+	padding: 8px 0 18px 20px;
+	float: right;
+}
+.about-us__article_list {
+	margin: 0;
+	padding-left: 13px;
+	list-style: none;
+	color: $gray;
+		font: {
+			family: $font-base;
+		    size: $fontSize-base;
+		    weight: 400;
+		}
+	li {
+		position: relative;
+		&:before {
+			position: absolute;
+			left: -13px;
+			top: 0;
+			color: $purple;
+			font-size: 12px;
+			content: "■";
+		}
+	}	
+}

@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 400 16px/20px Arial, sans-serif;
+}
+ol {
+	width: 600px;
+	margin: 50px 0 0 50px;
+}
+ol a {
+	color: #000;
+}
+ol a:hover {
+	color: blue;
+}

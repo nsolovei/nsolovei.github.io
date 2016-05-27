@@ -1,0 +1,1607 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+/*header-top*/
+.header {
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 44px 0 45px;
+	width: 100%;
+}
+.header__logo {
+	display: block;
+	margin-left: 12.5%;
+}
+.search {
+	border: 1px solid #c5c5c5;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	height: 38px;
+	margin-right: 12.5%;
+	width: 383px;
+}
+.search__input_field-search {
+	border: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #515151;
+	font: 400 17px/17px 'Lato', sans-serif;
+	height: 36px;
+	margin: 0;
+	outline: none;
+	padding-left: 20px;
+	width: 340px;
+	-webkit-appearance: none;
+}
+.search__button-search {
+	background: transparent;
+	border: none;
+	color: #878a92;
+	height: 38px;
+	outline: none;
+	padding: 0;
+	width: 38px;
+}
+
+/*Banner*/
+.slider {
+	width: 100%;
+}
+.slick-dots {
+	left: -999px;
+	position: absolute;
+}
+.slick-dots li{
+	display: inline-block;
+	padding-left: 20px;
+}
+.slick-dots button {
+	background: #fff;
+	border: 2px solid #f75f6a;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 10px;
+	height: 15px;
+	outline: none;
+	width: 15px;
+}
+.banner {
+	height: 880px;
+	overflow: hidden;
+	width: 100%;
+}
+.banner__slider {
+	color: #e4f4f8;
+	float: left;
+	font-weight: 700;
+	position: relative;
+	width: 63.5%;
+}
+.banner__slider_img {
+	min-height: 880px;
+	width: 100%;
+}
+.banner__slider_like {
+	border-bottom: 1px solid #e4f4f8;
+	font-size: 20px;
+	right: 85px;
+	padding-bottom: 12px;
+	position: absolute;
+	top: 98px;
+}
+.banner__slider_like .fa-thumbs-o-up { 
+	color: #f75f6a;
+	font-size: 30px;
+	padding-left: 5px; 
+}
+.banner__slider_like .fa-thumbs-o-up:hover { 
+	color: #DD5660;
+	-webkit-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+.banner__slider_name {
+	font-size: 37px;
+	right: 85px;
+	position: absolute;
+	text-align: right;
+	bottom: 15%;
+	width: 305px;
+}
+.banner__slider_name p {
+	padding: 0;
+	margin: 0;
+}
+.banner__slider_price {
+	border-top: 1px solid #e4f4f8;
+	font-size: 20px;
+	font-weight: 400;
+	width: auto;
+}
+.banner__heart_link {
+	display: block;
+	background: #1f2538;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #f75f6a; 
+	height: 57px;
+	right: -29px;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	top: 85px;
+	width: 57px;
+	z-index: 100;
+}
+.banner__heart_link:hover {
+	background: #464e5e;
+	-webkit-transition: background .3s ease-in-out;
+	-o-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.banner__heart .fa-heart {
+	color: #f75f6a; 
+	font-size: 25px;
+	padding-top: 18px;
+}
+.banner__deskription {
+	color: #fff;
+	margin-left: 63.5%;
+	width: 100%;
+}
+.banner__characteristics {
+	background: #f75f6a;
+	height: 40%;
+	padding: 85px;
+}
+.slick-slide .banner__characteristics  img {
+	display: inline-block;
+}
+.banner__characteristics_img {
+	vertical-align: top;
+}
+.banner__characteristics_list {
+	display: inline-block;
+}
+.banner__characteristics_list ul{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+	list-style: none;
+	margin: 0;
+	padding-left: 18px;
+}
+.banner__test-drive {
+	background: #1f2538;
+	height: 60%;
+	padding: 80px 0 85px 75px;
+}
+.banner__test-drive_wrap {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 331px;
+}
+.banner__test-drive_h3 {
+	font-size: 42px;
+	font-weight: 700;
+	margin: 0;
+	padding-bottom: 40px;
+}
+.banner__test-drive_thumbs-o-up {
+	position: relative;
+	text-align: center;
+	width: auto;
+}
+.fa-thumbs-o-up {
+	color: #f75f6a;
+	font-size: 42px;
+	font-weight: 700;
+}
+.banner__test-drive_thumbs-o-up:before {
+	border-top: 2px solid #333a4c;
+	content: "";
+	display: block;
+	height: 0;
+	left: 10px;
+	position: absolute;
+	top: 22px;
+	width: 110px;
+}
+.banner__test-drive_thumbs-o-up:after {
+	border-top: 2px solid #333a4c;
+	content: "";
+	display: block;
+	height: 0;
+	right: 10px;
+	position: absolute;
+	top: 22px;
+	width: 110px;
+}
+.banner__test-drive_list {
+	margin: 0;
+	margin-bottom: 65px;
+	padding: 16px 0 0;
+}
+.banner__test-drive_li{
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 400;
+	list-style: none;
+	margin-right: 3px;
+	position: relative;
+	text-align: center;
+	vertical-align: top;
+}
+.banner__test-drive_li:last-child{
+	margin-right: 0; 
+}	
+.index{
+	background: #333a4c;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #f75f6a;
+	height: 50px;
+	margin-bottom: 55px;
+	padding-top: 15px;
+	width: 50px;
+}
+.index:after {
+	border-left: 2px solid #333a4c;
+	content: "";
+	display: block;
+	height: 35px;
+	left: 50%;
+	position: relative;
+	bottom: -20px;
+	width: 0px;
+}
+.hint {
+	background: #333a4c;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	display: none;
+	left: -50px;
+	margin: auto;
+	padding: 2px 0;
+	position: absolute;
+	right: -50px;
+	top: 158px;
+	width: auto;
+}
+.banner__test-drive_li:hover .index {
+	background: #464e5e;
+	cursor: default;
+	-webkit-transition: background .3s ease-in-out;
+	-o-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.banner__test-drive_li:hover .hint {
+	display: block;
+}
+.banner__test-drive_li:hover .hint:before {
+	content: "";
+	border-style: solid;
+	border-width: 0 6px 6px 6px;
+	border-color: transparent transparent #333a4c transparent;
+	bottom: 0;
+	height: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: -32px;
+	width: 0;
+}
+/*banner button*/
+.banner__test-drive_button {
+	background: #17d5a6;
+	border: none;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	height: 48px;
+	width: 100%;
+}
+.banner__test-drive_button:hover {
+	background: #13AC86;
+	-webkit-transition: background .3s ease-in-out;
+	-o-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.clear-fix:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	width: 0;
+}
+
+/*filter*/
+.selection {
+	color: #2e395b;
+	background: #f7f5e5;
+	width: 100%;
+}
+.selection__form {
+	display: flex;
+	justify-content: space-around;
+	padding: 75px 0;
+}
+.selection__form_input-sallary {
+	position: relative;
+}
+.selection__form_input-wrap {
+	display: inline-block;
+}
+.selection__form_input-sallary:before {
+	background: url(../img/right.png) no-repeat;
+	content: "";
+	display: block;
+	height: 24px;
+	left: -60px;
+	position: absolute;
+	top: 30px;
+	width: 15px;
+}
+.selection__form_input-sallary:after {
+	background: url(../img/right.png) no-repeat;
+	content: "";
+	display: block;
+	height: 24px;
+	right: -60px;
+	position: absolute;
+	top: 30px;
+	width: 15px;
+}
+.selection__form_location {
+	padding-right: 15px;
+	vertical-align: middle;
+}
+.selection__form_location .fa-map-marker {
+	color: #f75f6a;
+	font-size: 35px;
+	padding-right: 5px;
+	vertical-align: middle;
+}
+.selection__form_town {
+	vertical-align: middle;
+}
+.selection__form_input-location {
+	background: transparent;
+	border: none;
+	color: #2e395b;
+	font: 700 32px/32px 'Lato', sans-serif;
+	height: 35px;
+	outline: none;
+	padding-left: 15px;
+	width: 195px;
+}
+.selection__form_link {
+	color: #2e395b;
+	display: block;
+	font-size: 13px;
+	padding-left: 115px;
+	text-align: left;
+}
+.selection__form_input-sallary {
+	  margin: 0 20px;
+}
+.selection__form_input-sallary p{
+	margin: 0;
+	padding: 0 13px 5px;
+}
+.selection__form_input-sallary .fa-usd {
+	font-size: 17px;
+	left: 20px;
+	position: relative;
+	top: 0;
+}
+.selection__form_input-sallary input[type='number'] {
+    background: transparent;
+    border: 1px solid #babcbb;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #2e395b;
+  	font-size: 17px;
+  height: 37px;
+  outline: none;
+    padding-left: 20px;
+    width: 165px;
+    -moz-appearance:textfield;
+}
+.selection__form_input-sallary span {
+	margin: 0 15px 0 20px;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none; margin: 0px;
+}
+.selection__form_button {
+	background: #f75f6a;
+	border: none;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	font: 400 14px/14px 'lato', sans-serif;
+	height: 60px;
+	outline: none;
+	position: relative;
+	text-align: center;
+	top: 10px;
+	width: 270px;
+}
+.selection__form_button:hover {
+	background: #DD5660;
+	-webkit-transition: background .3s ease-in-out;
+	-o-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.bold {
+	display: block;
+	font: 700 19px/19px 'lato', sans-serif;
+}
+
+.filter {
+	background: #2e395b;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.filter__category {
+	color: #fff;
+	font: 700 21px/21px 'Lato', sans-serif;
+	padding: 5px 0;
+}
+.filter__category p {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: super;
+}
+.filter__category_list {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 38.5%;
+}
+.filter__category_list li {
+	display: inline-block;
+	opacity: .4;
+	padding: 0 2%;
+	position: relative;
+	vertical-align: bottom;
+}
+.filter__category_list li:hover {
+	opacity: .8;
+	-webkit-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+}
+.filter__category_link:after {
+	border-style: solid;
+	border-width: 3px 3px 0 3px;
+	border-color: #f75f69 transparent transparent transparent;
+	bottom: 0;
+	content: "";
+	display: none;
+	height: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+}
+.filter__category_list li:hover .filter__category_link:after {
+	display: block;
+}
+
+/*cars*/
+.cars {
+	align-items: stretch;
+	display: flex;
+	height: 585px;
+	justify-content: space-between;
+	overflow: hidden;
+	width: 100%;
+}
+.cars__blok_left,
+.cars__blok_right {
+	align-content: stretch;
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	height: 585px;
+	justify-content: space-between;
+	flex-basis: 60%;
+}
+.cars__blok_right {
+	flex-basis: 40%;
+}
+.car__block {
+	border: 1px solid #c5c5c5;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+.car__content_tesla,
+.car__content_acura {
+	flex-basis: 50%;
+	height: 350px;
+	
+}
+.car__content_opel,
+.car__content_shevrole,
+.car__content_peugeot {
+	flex-basis: 33.33%;
+	height: 235px;
+}
+.car__content_bmw,
+.car__content_skoda {
+	flex-basis: 50%;
+	height: 230px;
+}
+.car__content_volvo,
+.car__content_mazda {
+	flex-basis: 50%;
+	height: 230px;
+}
+.car__content_mitshubishi,
+.car__content_reno,
+.car__content_honda {
+	flex-basis: 33.33%;
+	height: 125px;
+}
+.car__block:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.car__block img {
+	vertical-align: middle;
+}
+.logo_tesla,
+.logo_acura {
+	height: auto;
+	width: 140px;
+}
+.logo_opel,
+.logo_shevrole,
+.logo_peugeot {
+	height: auto;
+	width: 85px;
+}
+.logo_bmw,
+.logo_volvo,
+.logo_skoda,
+.logo_mazda {
+	height: auto;
+	width: 80px;
+}
+.logo_mitshubishi,
+.logo_reno,
+.logo_honda {
+	height: auto;
+	width: 40px;
+}
+.car__block_list {
+	border-left: 1px solid #c5c5c5;
+	color: #636b84;
+	display: inline-block;
+	font: 700 16px/16px 'Lato', sans-serif;
+	list-style: none;
+	margin: 0;
+	margin-left: 10%;
+	padding: 20px 0 20px 14px;
+	vertical-align: middle;
+}
+.car__block_list li {
+	padding-bottom: 5px;
+	text-align: left;
+}
+.car__block_list .fa-thumbs-o-up {
+	font-size: 16px;
+	color: #5e79d3;
+}
+.opacity {
+	background: rgba(99, 107, 132, .92);
+ 	color: #fff;
+	display: block;
+	font: 400 25px/25px 'Lato', sans-serif;
+ 	height: 100%;
+	left: 0px;
+  	position: absolute;
+	text-align: center;
+	top: 100%;
+	-o-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;
+	-moz-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;
+	-webkit-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;
+	-ms-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;
+	transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;
+	width: 100%;
+	z-index: 4;
+}
+.opacity__wrap {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.opacity__name {
+	display: inline-block;
+	vertical-align: middle;
+}
+.car__block:hover .opacity {
+	top: 0px;
+}
+
+/*How it Works*/
+.scheme {
+	background: #5e79d3;
+	position: relative;
+}
+.scheme__wrap {
+	text-align: center;
+	color: #fff;
+	padding-bottom: 170px;
+}
+.scheme__h3 {
+	color: #fff;
+	font-size: 57px;
+	font-weight: 700;
+	margin: 0;
+	padding-top: 165px;
+}
+.scheme__wrap img {
+	display: block;
+	margin: auto;
+}
+.scheme__button {
+	background: #17d5a6;
+	border: none;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	color: #fff;
+	font: 400 20px/20px 'lato', sans-serif;
+	height: 50px;
+	margin: 0 auto 60px;
+	outline: none;
+	width: 230px;
+}
+.scheme__button:hover {
+	background: #13AC86;
+	-webkit-transition: background .3s ease-in-out;
+	-o-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.scheme__text {
+	font: 700 17px/1.5 'lato', sans-serif;
+	letter-spacing: 1px;
+	margin: auto;
+	width: 580px;
+}
+.scheme__text_link {
+	color: #fff;
+}
+.scheme__text_link:hover {
+	color: #ddd;
+	-webkit-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+
+/*pop-ap window*/
+.popap {
+	display: none;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 400px;
+	width: 686px;
+}
+.popap__h4 {
+	background: #fff;
+	color: #636b84;
+	font: 700 20px/20px 'Lato', sans-serif;
+	margin: 0;
+	padding: 28px 0; 
+	text-align: center;  
+	width: 258px;
+}
+.popap__block {
+	background: #fff;
+	height: 161px;
+}
+.popap__block:hover {
+	background: #fafafa;
+	-webkit-transition: background .3s ease-in-out;
+	-o-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.popap__img {
+	display: inline-block;
+	margin: 0;
+	padding: 0; 
+}
+.popap__block_queue {
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding-left: 28px;
+	position: relative;
+	vertical-align: top;
+}
+.popap__block_queue .fa-times {
+	color: #4e5362;
+	cursor: pointer;
+	right: -105px;
+	position: absolute;
+	top: 10px;
+}
+.popap__block_queue h4 {
+	margin: 0;
+	padding-top: 35px;
+}
+.popap__block_name {
+	color: #5e79d3;
+	font: 700 20px/20px "Lato", sans-serif;
+}
+.popap__block_queue p {
+	color: #2e395b;
+	font: 700 16px/16px "Lato", sans-serif;
+}
+.popap__block_date {
+	border-top: 1px solid #f2f2f2;
+	color: #636b84;
+	font: 700 16px/16px "Lato", sans-serif;
+	padding-top: 18px;
+}
+.popap__block_date .fa-clock-o {
+	color: #5e79d3;
+	padding-right: 7px;
+}
+.popap__block_date .fa-map-marker {
+	color: #f75f6a;
+	font-size: 25px;
+	padding: 0 7px 0 20px;
+	vertical-align: middle;
+}
+.popap__block_date_link {
+	color: #636b84;
+	border-bottom: 1px dashed #636b84;
+	text-decoration: none;
+}
+.popap__block_number {
+	background: #fff;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #2e395b;
+	font-size: 14px;
+	height: 27px;
+	left: -45px;
+	padding-top: 4px;
+	position: relative;
+	text-align: center;
+	top: -70px;
+	width: 27px;
+}
+.popap__calendar {
+	background: #fff;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.popap__calendar li {
+	border: 1px solid #cdd0d7;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 115px;
+	margin-right: -1px;
+	padding-top: 15px;
+	position: relative;
+	text-align: center;
+	width: 115px;
+}
+.popap__calendar li:hover {
+	background: #fafafa;
+	-webkit-transition: background .3s ease-in-out;
+	-o-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.popap__calendar_test-drive {
+	color: #f75f6a;
+	font-size: 14px;
+	left: 91px;
+	position: absolute;
+	top: 6px;
+}
+.first {
+	color: #fff;
+}
+.popap__calendar_date {
+	display: block;
+	font: 700 66px/66px 'Lato', sans-serif;
+}
+.popap__calendar_day {
+	font: 400 15px/15px 'Lato', sans-serif;
+}
+.popap__calendar li:nth-child(odd) {
+	color: #636b84;
+} 
+.popap__calendar li:nth-child(even) {
+	color: #a1a1a1;
+} 
+.popap__calendar li:first-child {
+	background: #17d5a6;
+	color: #fff;
+} 
+
+/*footer*/
+.footer__nav {
+	background: #f8f8f8;
+	font-size: 14px;
+	padding: 24px 0 30px;
+	text-align: center;
+}
+.footer__nav_list {
+	background: #f8f8f8;
+	font-size: 14px;
+	padding: 24px 0 30px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.footer__nav_list li {
+	display: inline-block;
+	color: #81889b;
+	text-decoration: none;
+}
+.footer__nav_link:hover {
+	color: #302e2e;
+	cursor: pointer;
+	-webkit-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+.user-menu {
+	height: 85px;
+	position: relative;
+}
+.user-menu__panel-expand_foto {
+	background: #f75f6a;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 9px solid #f75f6a;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	height: 55px;
+	left: 0;
+	position: absolute;
+	margin-left: 190px;
+	overflow: hidden;
+	top: -29px;
+	width: 55px;
+}
+.user-menu__panel-expand_foto:hover {
+	border-color: #DD5660;
+	cursor: pointer;
+	-webkit-transition: border-color .3s ease-in-out;
+	-o-transition: border-color .3s ease-in-out;
+	transition: border-color .3s ease-in-out;
+}	
+.user-menu__panel-expand_foto img{
+	height: auto;
+	width: 100%;
+}
+.user-menu__wrap {
+	display: none;
+}
+.user-menu__settings {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 190px;
+}
+.user-menu__settings-block {
+	background: #f75f6a;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, .7)
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 80px;
+	left: 0;
+	position: relative;
+	margin-right: 20px;
+	overflow: hidden;
+	top: -17px;
+	width: 80px;
+}
+.user-menu__settings-block_img {
+	height: auto;
+	width: 100%;
+}
+.user-menu__settings-block_ico {
+	color: #fff;
+	left: 14px;
+	position: absolute;
+	top: 31px;
+}
+.user-menu__settings-block_ico a {
+	color: #fff;
+	display: none;
+	text-decoration: none;
+}
+.user-menu__settings-block_ico .fa {
+	color: #fff;
+	padding: 0 5px;
+}
+.user-menu__settings-block:hover .user-menu__settings-block_img {
+	display: none;
+}
+.user-menu__settings-block:hover .user-menu__settings-block_ico a {
+	display: inline-block;
+}
+.user-menu__settings-block,
+.user-menu__welkom  {
+	display: inline-block;
+}
+.user-menu__welkom {
+	color: #81889b;
+	font-size: 18px;
+	margin: 0;
+	position: relative;
+	top: -28px;
+}
+.user-menu__mediaicons a,
+.user-menu__calendar a {
+	color: #81889b;
+	font-size: 14px;
+	padding-right: 22px; 
+}
+.user-menu__calendar {
+	position: relative;
+}
+.user-menu__mediaicons .fa, 
+.user-menu__calendar .fa {
+	color: #81889b;
+	font-size: 24px;
+	padding-right: 5px;
+}
+.user-menu__mediaicons a:hover,
+.user-menu__calendar a:hover, 
+.user-menu__mediaicons a:hover .fa-apple,
+.user-menu__mediaicons a:hover .fa-play,
+.user-menu__calendar a:hover .fa-calendar,
+.user-menu__calendar a:hover .fa-heart {
+	color: #6b45b1;
+	-webkit-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}	
+.user-menu__calendar_test-drive {
+	background: #f75f6a;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 14px;
+	height: 19px;
+	left: -6px;
+	position: absolute;
+	text-align: center;
+	top: -3px;
+	width: 19px;
+}
+/*media for mobile*/
+@media all and (max-width: 1335px) {
+	.car__block_list {
+		margin-left: 5%;
+	}
+}
+@media all and (max-width: 1265px) {
+	.logo_tesla,
+	.logo_acura {
+		height: auto;
+		width: 130px;
+	}
+	.logo_opel,
+	.logo_shevrole,
+	.logo_peugeot {
+		height: auto;
+		width: 70px;
+	}
+	.logo_bmw,
+	.logo_volvo,
+	.logo_skoda,
+	.logo_mazda {
+		height: auto;
+		width: 70px;
+	}
+	.logo_mitshubishi,
+	.logo_reno,
+	.logo_honda {
+		height: auto;
+		width: 37px;
+	}
+	.user-menu__settings {
+		margin: 0 50px;
+	}
+	.user-menu__panel-expand_foto {
+		margin-left: 50px; 
+	}
+}
+@media all and (max-width: 1190px) {
+	.banner {
+		height: 530px;
+	}
+	.banner__slider {
+		height: 530px;
+		overflow: hidden;
+		width: 43.5%;
+	}
+	.banner__slider_img {
+		min-height: 530px;
+		width: 585px;
+	}
+	.banner__slider_like {
+		left: 46px;
+		top: 28px;
+		width: 67px;
+	}
+	.banner__heart_link {
+		left: 150px;
+		top: 20px;
+	}
+	.banner__deskription {
+		margin-left: 43.5%;
+	}
+	.banner__characteristics {
+		padding: 10px 0 10px 85px;
+	}
+	.banner__characteristics_list ul{
+		font-size: 14px;
+		padding-left: 15px;
+	}
+	.banner__test-drive {
+		padding: 10px 0 25px 85px;
+	}
+	.banner__test-drive_h3 {
+		font-size: 22px;
+		padding-bottom: 10px;
+	}
+	.selection__form {
+		flex-wrap: wrap;
+		padding: 25px 25px;
+	}
+	.selection__form_location,
+	.selection__form_input-sallary input[type='number'] {
+    	margin-bottom: 25px;
+	}
+	.selection__form_input-sallary:before,
+	.selection__form_input-sallary:after {
+		display: none;
+	}
+	.filter__category_list {
+		width: 60%;
+	}
+	.car__block_list {
+		margin-left: 3%;
+	}
+	.logo_tesla,
+	.logo_acura {
+		height: auto;
+		width: 120px;
+	}
+	.logo_opel,
+	.logo_shevrole,
+	.logo_peugeot {
+		height: auto;
+		width: 55px;
+	}
+	.logo_bmw,
+	.logo_volvo,
+	.logo_skoda,
+	.logo_mazda {
+		height: auto;
+		width: 55px;
+	}
+	.logo_mitshubishi,
+	.logo_reno,
+	.logo_honda {
+		height: auto;
+		width: 30px;
+	}
+}
+@media all and (max-width: 1096px) {
+	.selection__form_input-sallary:before {
+		display: block;
+		left: -30px;
+	}
+	.selection__form_input-sallary:after {
+		display: block;
+		right: -30px;
+	}
+	.cars {
+	display: block;
+	height: 100%;
+	}
+	.cars__blok_left,
+	.cars__blok_right {
+		flex-basis: 100%;
+	}
+	.car__block_list {
+		margin-left: 10%;
+	}
+	.logo_tesla,
+	.logo_acura {
+		height: auto;
+		width: 140px;
+	}
+	.logo_opel,
+	.logo_shevrole,
+	.logo_peugeot {
+		height: auto;
+		width: 100px;
+	}
+	.logo_bmw,
+	.logo_volvo,
+	.logo_skoda,
+	.logo_mazda {
+		height: auto;
+		width: 130px;
+	}
+	.logo_mitshubishi,
+	.logo_reno,
+	.logo_honda {
+		height: auto;
+		width: 80px;
+	}
+}	
+@media all and (max-width: 1024px) {
+	.header {
+		justify-content: space-around;
+	}	
+	.search {
+		width: 200px;
+	}
+	.search__input_field-search {
+		width: 157px;
+	}
+	.banner__slider_name {
+		font-size: 20px;
+		left: -130px;
+		top: 415px;
+	}
+	.banner__slider_price {
+		font-size: 12px;
+	}
+	.filter__category_list {
+		width: 72%;
+	}
+	.scheme__wrap {
+		margin: 0 auto;
+		width: 90%;
+	}
+	.scheme__wrap img {
+		height: auto;
+		width: 100%;
+	}
+	.logo_opel,
+	.logo_shevrole,
+	.logo_peugeot {
+		height: auto;
+		width: 70px;
+	}
+	.popap {
+		top: 200px;
+		width: 686px;
+	}
+	.user-menu__settings {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.user-menu {
+		height: 125px;
+	}
+}	
+@media all and (max-width: 768px) {
+	.banner {
+		height: 230px;
+	}
+	.banner__slider {
+		height: 230px;
+		overflow: hidden;
+		width: 25%;
+		min-width: 270px;
+	}
+	.banner__slider_img {
+		min-height: 230px;
+		width: 215px;
+	}
+	.banner__slider_name {
+		font-size: 18px;
+		left: -130px;
+		top: 180px;
+	}
+	.banner__slider_like {
+		left: 10px;
+		top: 18px;
+		/*width: 67px;*/
+	}
+	.banner__heart_link {
+		left: 90px;
+		top: 2px;
+	}
+	.banner__deskription {
+		margin-left: 25%;
+	}
+	.banner__characteristics {
+		height: 230px;
+		padding: 40px 0 10px 25px;
+		vertical-align: top;
+	}
+	.banner__characteristics_img {
+		padding-left: 5px;
+	}
+	.banner__characteristics_list {
+		font-size: 14px;
+		margin: 0;
+	}
+	.banner__test-drive {
+		display: none;
+		padding: 10px 0 15px 15px;
+	}
+	.banner__test-drive_h3 {
+		font-size: 18px;
+	}
+	.cars {
+		height: 590px;
+	}
+	.cars__blok_left,
+	.cars__blok_right {
+		height: 250px;
+	}
+	.car__content_tesla,
+	.car__content_acura {
+		height: 150px;
+	}
+	.car__content_opel,
+	.car__content_shevrole,
+	.car__content_peugeot,
+	.car__content_mitshubishi,
+	.car__content_reno,
+	.car__content_honda  {
+		height: 100px;
+	}
+	.car__content_bmw,
+	.car__content_volvo,
+	.car__content_skoda,
+	.car__content_mazda {
+		height: 120px;
+	}
+	.car__block_list {
+		margin-left: 3%;
+		padding: 5px 0 5px 10px;
+	}
+	.logo_tesla,
+	.logo_acura {
+		height: auto;
+		width: 100px;
+	}
+	.logo_opel,
+	.logo_shevrole,
+	.logo_peugeot {
+		height: auto;
+		width: 40px;
+	}
+	.logo_bmw,
+	.logo_volvo,
+	.logo_skoda,
+	.logo_mazda {
+		height: auto;
+		width: 85px;
+	}
+	.logo_mitshubishi,
+	.logo_reno,
+	.logo_honda {
+		height: auto;
+		width: 55px;
+	}
+	.scheme__text {
+		width: 90%;
+	}
+	.popap {
+		width: 578px;
+	}
+	.popap__calendar li {
+		width: 97px;
+	}
+	.popap__calendar_test-drive {
+		left: 78px;
+		top: 6px;
+	}
+	.popap__block_queue .fa-times {
+		right: 4px;
+	}
+	.user-menu__welkom {
+		padding-right: 20px;
+	}
+	.user-menu__mediaicons a,
+	.user-menu__calendar a {
+		line-height: 35px;
+	}
+}
+@media all and (max-width: 600px) {
+	.header {
+		justify-content: space-around;
+	}	
+	.header__logo,
+	.search {
+		margin: 0;
+	}
+	.banner__characteristics {
+		height: 230px;
+		padding: 10px 0;
+		vertical-align: top;
+	}
+	.banner__characteristics_list {
+		display: block;
+		font-size: 12px;
+		margin: 0;
+	}
+	.banner__characteristics_list li {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.selection {
+		width: 100%;
+	}
+	.selection__form {
+		flex-direction: column;
+		padding: 10px 0 25px;
+
+	}
+	.selection__form_location {
+		padding-right: 0;
+		text-align: center;
+	}
+	.selection__form_link {
+		padding: 0;
+		text-align: center;
+	}
+	.selection__form_input-sallary {
+		  margin: 0;
+		  text-align: center;
+	}
+	.selection__form_input-sallary span {
+		display: block;
+		margin-bottom: 14px;
+		text-align: center;
+	}
+	.selection__form_button {
+		margin: 0 auto;
+	}
+	.filter__category_list {
+		width: 100%;
+	}
+	.user-menu {
+		height: 175px;
+	}
+	.cars {
+		height: 1440px;
+	}
+	.cars__blok_left,
+	.cars__blok_right {
+		display: block;
+		width: 100%;
+		height: 600px;
+	}
+	.car__content_mitshubishi,
+	.car__content_reno,
+	.car__content_honda {
+		padding-right: 38px;
+	}
+	.car__block {
+		display: inline-block;
+		height: 120px;
+		width: 100%;
+	}
+	.car__block >img {
+		height: auto;
+		width: 80px;
+	}
+	.car__block_list {
+		margin-left: 15%;
+		padding-left: 20px;
+	}
+	.scheme__wrap {
+		padding-bottom: 65px;
+	}
+	.scheme__h3 {
+		font-size: 35px;
+		padding-top: 75px;
+	}
+	.popap {
+		width: 320px;
+	}
+	.popap__block_queue .fa-times {
+		right: 16px;
+	}
+	.popap__h4 {
+		font: 700 12px/12px 'Lato', sans-serif;
+		width: 110px;
+		padding: 5px 0;
+	}
+	.popap__block {
+		height: 68px;
+		width: 320px;
+	}
+	.popap__block_queue h4 {
+		padding-top: 5px;
+	}
+	.popap__block_queue {
+	padding-left: 5px;
+	width: 205px;
+	}
+	.popap__img {
+		height: auto;
+		width: 110px;
+	}
+	.popap__img  img{ 
+		width: 100%;
+		height: auto;
+	}
+	.popap__block_name {
+		font: 700 14px/14px "Lato", sans-serif;
+	}
+	.popap__block_queue p {
+		font: 700 11px/11px "Lato", sans-serif;
+		margin: 0;
+		padding-left: 5px;
+		width: 200px;
+	}
+	.popap__block_date {
+		font: 700 11px/11px "Lato", sans-serif;
+		padding-top: 5px;
+	}
+	.popap__block_date .fa-clock-o {
+		padding-right: 5px;
+	}
+	.popap__block_date .fa-map-marker {
+		font-size: 18px;
+		padding: 0 5px 0 10px;
+	}
+	.popap__block_number {
+		left: -23px;
+		top: -37px;
+	}
+	.popap__calendar li {
+		height: 81px;
+		padding-top: 15px;
+		width: 107px;
+	}
+	.popap__calendar_test-drive {
+		font-size: 14px;
+		left: 91px;
+		top: 6px;
+	}
+	.popap__calendar_date {
+		display: block;
+		font: 700 33px/33px 'Lato', sans-serif;
+	}
+	/*.user-menu__mediaicons a,
+	.user-menu__calendar a {
+		line-height: 35px;
+	}*/
+}
+@media all and (max-width: 480px) {
+	.header {
+		align-items: center;
+		flex-direction: column;
+	}	
+	.header__logo {
+		margin-bottom: 20px;
+	}
+	.banner__slider {
+		min-width: 175px;
+	}
+		
+	.banner__characteristics {
+		padding-left: 30%;
+	}
+	.banner__characteristics_list ul{
+		font-size: 10px;
+		padding-top: 10px;
+	}
+	
+	.filter__category_list li {
+		padding: 0;
+		margin: 10px 7%;
+	}
+	.popap {
+		top: 0px;
+	}
+	.scheme__h3 {
+		font-size: 25px;
+		padding-top: 30px;
+	}
+	.scheme__wrap {
+		padding-bottom: 70px;
+	}
+	.scheme__text {
+		font-size: 12px;
+	}
+	.scheme__button {
+		font-size: 12px;
+		line-height: 12px;
+		height: 30px;
+		width: 150px;
+	}
+	.footer__nav_list {
+		margin: 0 20px;
+	}
+	.user-menu__settings {
+		margin: 0 7px;
+	}
+	.user-menu__mediaicons a,
+	.user-menu__calendar a {
+		font-size: 11px;
+	}
+	.user-menu__mediaicons .fa, .user-menu__calendar .fa {
+		font-size: 11px;
+	}
+	.user-menu__mediaicons .fa, .user-menu__calendar .fa {
+		font-size: 11px;
+	}
+}

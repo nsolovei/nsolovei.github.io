@@ -1,0 +1,132 @@
+.website {
+	width: 100%;
+	background: $bg-gray;
+	.website__wrap {
+		display: flex;
+		padding: 140px 65px 170px;
+		align-content: center;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		@media  #{$large-only} {
+       		padding: 100px 65px;
+	    }
+	    @media  #{$medium-only} {
+	        padding: 100px 65px;
+	    }
+	    @media  #{$small-only} {
+	        padding: 70px 65px;
+	    }
+	    @media  #{$xsmall-only} {
+	        padding: 70px 65px;
+	    }
+	}
+}
+.website__block {
+	flex: 355px;
+}
+.website__toaster {
+	margin: auto;
+	text-align: center;
+	flex: 355px;
+}
+.website__block_right {
+	text-align: right;
+	@media  #{$large-only} {
+        text-align: left;
+    }
+    @media  #{$medium-only} {
+        text-align: left;
+    }
+}
+.website__block_one {
+	position: relative;
+	padding-bottom: 115px;
+	@media  #{$large-only} {
+        padding: 40px 0;
+    }
+    @media  #{$medium-only} {
+        padding: 40px 0;
+    }
+    @media  #{$small-only} {
+        padding: 20px 0;
+    }
+    @media  #{$xsmall-only} {
+        padding: 20px 0;
+    }
+}
+.website__block_two {
+	position: relative;
+	@media  #{$large-only} {
+        padding: 40px 0;
+    }
+    @media  #{$medium-only} {
+        padding: 40px 0;
+    }
+    @media  #{$small-only} {
+        padding: 20px 0;
+    }
+    @media  #{$xsmall-only} {
+        padding: 20px 0;
+    }
+}	
+.website__block_img-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform:  translate(-115%, -36%);	
+	@media  #{$large-only} {
+    	transform:  translate(-115%, 50%);	
+    }
+    @media  #{$medium-only} {
+    	transform:  translate(-115%, 50%);	
+    }
+    @media  #{$small-only} {
+   		transform:  translate(-115%, 50%);	
+    }
+    @media  #{$xsmall-only} {
+    	transform:  translate(-115%, 50%);	
+    }				
+}
+.website__block_img-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translate(115%, -36%);	
+	@media  #{$large-only} {
+    	left: 0;
+    	transform:  translate(-115%, 50%);	
+    }
+    @media  #{$medium-only} {
+    	left: 0;
+    	transform:  translate(-115%, 50%);	
+    }
+    @media  #{$small-only} {
+    	transform:  translate(115%, 50%);	
+    }
+    @media  #{$xsmall-only} {
+    	transform:  translate(115%, 50%);	
+    }								
+}
+.website__block_txt {
+	display: inline-block;
+}
+.website__block_head {
+	margin: 0;
+	padding: 0;
+	color: $black;
+	font: {
+		family: $font-base;
+	    size: $fontSize-small;
+	    weight: 600;
+	}
+}
+.website__block_paragraf {
+	margin: 0;
+	padding: 0;
+	color: $gray;
+	font: {
+		family: $font-base;
+	    size: $fontSize-base;
+	    weight: 400;
+	}
+}
